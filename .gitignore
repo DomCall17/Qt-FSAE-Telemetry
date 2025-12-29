@@ -1,0 +1,48 @@
+# Build directories
+build/
+cmake-build-*/
+
+# Qt Creator
+*.pro.user
+*.creator.user
+*.user
+
+# Qt build artifacts
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+build/**
+
+# Visual Studio
+.vs/
+*.vcxproj*
+
+# MinGW
+*.exe
+*.dll
+*.a
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Qt quick cache
+qmlcache/
+
+# Other
+*.o
+*.obj
+*.so
+*.pyc
+
+# OneDrive files to avoid conflicts
+~$*
+~*\n
